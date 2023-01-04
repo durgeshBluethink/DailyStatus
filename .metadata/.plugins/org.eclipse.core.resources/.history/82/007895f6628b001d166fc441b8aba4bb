@@ -1,0 +1,16 @@
+package com.example;
+
+public class EmpDaoImpal implements EmpDao {
+	priavte 
+
+	public int insert(Emp emp) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int chnage(Emp emp) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

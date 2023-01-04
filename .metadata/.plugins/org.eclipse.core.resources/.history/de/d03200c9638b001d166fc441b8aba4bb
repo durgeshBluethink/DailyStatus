@@ -1,0 +1,27 @@
+package com.example;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+
+public class EmpDaoImpal implements EmpDao {
+	private JdbcTemplate jdbcTemplate;
+
+
+	public int insert(Emp emp) {
+	   String sql = "INSERT into Emp(empName,empEmail) values("durgeshkumar","durgesh@gmail")";
+		return 0;
+	}
+
+	public int chnage(Emp emp) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public JdbcTemplate getJdbcTemplate() {
+		return jdbcTemplate;
+	}
+
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+}
