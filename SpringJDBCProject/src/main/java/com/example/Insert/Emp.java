@@ -4,6 +4,11 @@ import java.sql.Date;
 
 public class Emp {
     private int empId;
+	private String empName;
+    private String empEmail;
+    private String city;
+    private int date;
+
     public int getEmpId() {
 		return empId;
 	}
@@ -11,19 +16,12 @@ public class Emp {
 	public void setEmpId(int empId) {
 		this.empId = empId;
 	}
-
-	private String empName;
-    private String empEmail;
-    private String city;
-    private Date date;
-
-
-    public Date getDate() {
+    public int getDate() {
 		return date;
 	}
 
-	public void setDate(Date date) {
-		this.date = date;
+	public void setDate(int i) {
+		this.date = i;
 	}
 
 	public String getEmpName() {
@@ -53,7 +51,7 @@ public class Emp {
  
 
 
-	public Emp(int empId, String empName, String empEmail, String city, Date date) {
+	public Emp(int empId, String empName, String empEmail, String city, int date) {
 		super();
 		this.empId = empId;
 		this.empName = empName;

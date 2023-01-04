@@ -29,7 +29,9 @@
 		<property name="dataSource" ref="ds"></property>
 	</bean>
 
-
+<bean name="EmpDao" class="com.example.Insert.Dao">  
+<property name="jdbcTemplate" ref="jdbcTemplate"></property>  
+</bean>
 
 
 </beans>
